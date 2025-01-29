@@ -1,0 +1,49 @@
+.introducao-bg {
+  background-image: url("../../img/bg-valores.jpg");
+  background-size: cover;
+}
+.introducao {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 20px;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.introducao a {
+  justify-self: center;
+}
+.introducao h2 {
+  margin: 0 auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.introducao p {
+  padding-bottom: 40px;
+  max-width: 60ch;
+  margin: 0 auto;
+  text-align: center;
+}
+@media (max-width: 1000px) {
+  .introducao h2 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+@media (max-width: 900px) {
+  .header {
+    margin-bottom: 20px;
+  }
+  .introducao h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .introducao p {
+    padding-bottom: 20px;
+  }
+}
+@media (max-width: 900px) {
+  .introducao h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}

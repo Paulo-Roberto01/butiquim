@@ -1,0 +1,109 @@
+.header-bg {
+  background-image: url("../../img/bg-intro.jpg");
+  background-size: cover;
+  background-position: center top;
+}
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.header-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.header-menu a {
+  padding: 10px 4px;
+  display: inline-block;
+  transition: 0.5;
+}
+.header-menu a:hover {
+  color: var(--cor-p1);
+}
+.header-icon {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.header-icon img {
+  padding: 8px;
+}
+.header-icon img:hover {
+  background-color: var(--cor-p5);
+  border-radius: 20%;
+}
+
+.logo img {
+  max-width: 140px;
+}
+.titulo {
+  display: block;
+  text-align: center;
+  padding-top: 120px;
+  padding-bottom: 40px;
+  font: 700 6.25rem/0.9 "the Nautigal";
+}
+.header-descricao h1 {
+  padding-bottom: 120px;
+  text-align: center;
+}
+@media (max-width: 1000px) {
+  .header-menu a {
+    padding: 8px;
+    background-color: rgba(80, 75, 72, 0.4);
+    border-radius: 4px;
+  }
+  .header-menu a:hover {
+    background-color: var(--cor-p1);
+    color: var(--cor-p5);
+  }
+  .titulo {
+    font-size: 3.75rem;
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+  .logo img {
+    max-width: 100px;
+  }
+  .header-icon img {
+    padding: 6px;
+  }
+}
+
+@media (max-width: 900px) {
+  .header {
+    justify-content: center;
+    padding-bottom: 0px;
+  }
+  .titulo {
+    padding-top: 20px;
+    font-size: 3.5rem;
+  }
+  .header-descricao h1 {
+    padding-bottom: 40px;
+  }
+}
+@media (max-width: 700px) {
+  .header-menu {
+    gap: 10px;
+    justify-content: center;
+  }
+}
+@media (max-width: 400px) {
+  .header-menu {
+    gap: 10px;
+    justify-content: center;
+  }
+  .titulo {
+    font-size: 3rem;
+  }
+  .header-descricao h1 {
+    font-size: 1rem;
+  }
+}

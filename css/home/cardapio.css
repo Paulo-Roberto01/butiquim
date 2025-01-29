@@ -1,0 +1,54 @@
+.cardapio-bg {
+  background-image: url("../../img/bg-cardapio.jpg");
+}
+.cardapio-info {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.cardapio h2 {
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+.cardapio p,
+.cardapio span {
+  margin: 0 auto;
+  text-align: center;
+}
+.cardapio span {
+  padding-top: 20px;
+}
+
+.cardapio-itens {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  gap: 40px;
+  padding-bottom: 40px;
+}
+
+.cardapio-itens img {
+  border-radius: 4px;
+  margin-bottom: 10px;
+  width: 260px;
+  height: 270;
+  transition: 0.4s;
+}
+.cardapio-itens a {
+  display: block;
+}
+
+.cardapio-itens li {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+.cardapio img:hover {
+}

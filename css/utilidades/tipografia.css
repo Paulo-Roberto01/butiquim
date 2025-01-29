@@ -1,33 +1,45 @@
 .font-1xl {
   font: 700 6rem/0.9 "The Nautigal";
 }
+.font-2msb {
+  font: 400 1.5rem/0.66 "Nunito";
+}
+.font-2m {
+  font: 400 1.5rem/1.5 "Nunito";
+}
+.font-2xm {
+  font: 300 1.5rem/1.5 "Nunito";
+  letter-spacing: 2px;
+}
+.font-2mC {
+  text-transform: uppercase;
+  font: 600 1.25rem/1.5 "Nunito";
+  letter-spacing: 2px;
+}
+.font-2pC {
+  text-transform: uppercase;
+  font: 300 0.9375rem/1.5 "Nunito";
+  letter-spacing: 2px;
+}
+.font-2s {
+  font: 400 1.25rem/1.5 "Nunito";
+}
+.font-2s {
+  font: 300 1rem/1.5 "Nunito";
+  text-align: center;
+}
 @media (max-width: 1000px) {
   .font-1xl {
     font-size: 3.75rem;
   }
-}
-@media (max-width: 400px) {
-  .font-1xl {
-    font-size: 3rem;
-  }
-}
-
-.font-2msb {
-  font: 400 1.5rem/0.66 "Nunito";
-}
-
-@media (max-width: 1000px) {
   .font-2msb {
     font-size: 1.25rem;
   }
-}
-
-.font-2m {
-  font: 400 1.5rem/1.5 "Nunito";
-}
-@media (max-width: 1000px) {
   .font-2m {
     font-size: 1.2rem;
+  }
+  .font-2s {
+    font-size: 1.125rem;
   }
 }
 @media (max-width: 600px) {
@@ -35,7 +47,9 @@
     font-size: 1rem;
   }
 }
-
-.font-2s {
-  font: 400 1.25rem/1.5 "Nunito";
+@media (max-width: 400px) {
+  .font-1xl {
+    font-family: "Nunito";
+    font-size: 2rem;
+  }
 }

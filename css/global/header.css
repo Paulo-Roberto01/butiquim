@@ -32,10 +32,10 @@
   gap: 6px;
 }
 .header-icon img {
-  padding: 8px;
+  padding: 4px;
 }
 .header-icon img:hover {
-  background-color: var(--cor-p5);
+  background-color: var(--cor-p6);
   border-radius: 20%;
 }
 
@@ -50,7 +50,7 @@
   font: 700 6.25rem/0.9 "the Nautigal";
 }
 .header-descricao h1 {
-  padding-bottom: 120px;
+  padding-bottom: 80px;
   text-align: center;
 }
 @media (max-width: 1000px) {
@@ -105,5 +105,7 @@
   }
   .header-descricao h1 {
     font-size: 1rem;
+    margin-left: 40px;
+    margin-right: 40px;
   }
 }

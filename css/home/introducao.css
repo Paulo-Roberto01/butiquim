@@ -5,7 +5,9 @@
 .introducao {
   display: grid;
   grid-template-columns: 1fr;
-  padding: 20px;
+  justify-content: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
   max-width: 1140px;
   margin: 0 auto;
 }
@@ -14,8 +16,7 @@
 }
 .introducao h2 {
   margin: 0 auto;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-bottom: 40px;
 }
 .introducao p {
   padding-bottom: 40px;
@@ -24,9 +25,12 @@
   text-align: center;
 }
 @media (max-width: 1000px) {
-  .introducao h2 {
+  .introducao {
     padding-top: 40px;
     padding-bottom: 40px;
+  }
+  .introducao h2 {
+    padding-bottom: 20px;
   }
 }
 @media (max-width: 900px) {
@@ -41,9 +45,12 @@
     padding-bottom: 20px;
   }
 }
-@media (max-width: 900px) {
+@media (max-width: 700px) {
   .introducao h2 {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 0px;
+  }
+  .introducao p {
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }
